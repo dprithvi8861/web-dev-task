@@ -1,0 +1,408 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.webpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.webpage .ribbon1{
+  align-self: flex-end;
+}
+.webpage .ribbon1 img{
+  max-height: 150px;
+  max-width: 150px;
+}
+/* container1 */
+.webpage .container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.webpage .container1 h1{
+  padding: 10px;
+  font-weight: bold;
+  background-color:rgb(197,23,24);
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+  box-shadow: 2px 2px 2px black;
+}
+.webpage .container1 span{
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.webpage .hr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.webpage .hr hr{
+  width: 40%;
+  border-top: 3px dashed rgb(197,23,24);
+}
+
+/* ribbon */
+.ribtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.webpage .ribbon2,
+.webpage .ribbon4{
+  align-self: flex-end;
+  position: absolute;
+  left: 0;
+}
+.webpage .ribbon3{
+  align-self: flex-end;
+  position: absolute;
+  right: 0;
+}  
+.webpage .ribbon2 img,
+.webpage .ribbon3 img,
+.webpage .ribbon4 img{
+  max-height: 150px;
+  max-width: 150px;
+} 
+
+/* container2 */
+.webpage .container2 .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+.webpage .container2 .title h1{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 2px rgb(197,23,24);
+  border-radius: 10px;
+}
+.webpage .container2 .title h2{
+  padding: 10px;
+  margin: 20px;
+  font-weight: bold;
+  background-color:rgb(197,23,24);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.webpage .container2 .member1 img, .member2 img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:  2px solid black;
+}
+.webpage .container2 .member2 .item5 img{
+  padding: 5px;
+}
+.webpage .container2 .member1 .item1{
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.webpage .container2 .member1 .item2{
+  grid-column: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.webpage .container2 .member2 .item3{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.webpage .container2 .member2 .item4{
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.webpage .container2 .member2 .item5{
+  grid-column: 4/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* container3  and container4 */
+.webpage .container3 .title,
+.webpage .container4 .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+.webpage .container3 .title h2,
+.webpage .container4 .title h2{
+  padding: 10px;
+  margin: 20px;
+  font-weight: bold;
+  background-color:rgb(197,23,24);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.webpage .container3 .member1 img, .member2 img,
+.webpage .container4 .member1 img, .member2 img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:  2px solid black;
+}
+.webpage .container3 .member1 .item4 img,
+.webpage .container3 .member2 .item6 img,
+.webpage .container4 .member1 .item4 img,
+.webpage .container4 .member2 .item6 img{
+  padding: 5px;
+}
+.webpage .container3 .member1 .item1,
+.webpage .container4 .member1 .item1{
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container3 .member1 .item2,
+.webpage .container4 .member1 .item2{
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container3 .member1 .item3,
+.webpage .container4 .member1 .item3{
+  grid-column: 4/5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container3 .member1 .item4,
+.webpage .container4 .member1 .item4{
+  grid-column: 5/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container3 .member2 .item5,
+.webpage .container4 .member2 .item5{
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container3 .member2 .item6,
+.webpage .container4 .member2 .item6{
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container3 .member2 .item7,
+.webpage .container4 .member2 .item7{
+  grid-column: 4/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.webpage .container2 .member1,
+.webpage .container2 .member2,
+.webpage .container3 .member1,
+.webpage .container3 .member2,
+.webpage .container4 .member1,
+.webpage .container4 .member2{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content:center;
+  align-items: baseline;
+  column-gap: 12%;
+}
+
+.webpage .container2 .item1,
+.webpage .container2 .item2,
+.webpage .container2 .item3,
+.webpage .container2 .item4,
+.webpage .container2 .item5,
+.webpage .container3 .item1,
+.webpage .container3 .item2,
+.webpage .container3 .item3,
+.webpage .container3 .item4,
+.webpage .container3 .item5,
+.webpage .container3 .item6,
+.webpage .container3 .item7,
+.webpage .container4 .item1,
+.webpage .container4 .item2,
+.webpage .container4 .item3,
+.webpage .container4 .item4,
+.webpage .container4 .item5,
+.webpage .container4 .item6,
+.webpage .container4 .item7
+{
+  transition: all 0.2s;
+}
+.webpage .container2 .item1:hover,
+.webpage .container2 .item2:hover,
+.webpage .container2 .item3:hover,
+.webpage .container2 .item4:hover,
+.webpage .container2 .item5:hover,
+.webpage .container3 .item1:hover,
+.webpage .container3 .item2:hover,
+.webpage .container3 .item3:hover,
+.webpage .container3 .item4:hover,
+.webpage .container3 .item5:hover,
+.webpage .container3 .item6:hover,
+.webpage .container3 .item7:hover,
+.webpage .container4 .item1:hover,
+.webpage .container4 .item2:hover,
+.webpage .container4 .item3:hover,
+.webpage .container4 .item4:hover,
+.webpage .container4 .item5:hover,
+.webpage .container4 .item6:hover,
+.webpage .container4 .member.item7:hover{
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+
+@media screen and (min-width:300px) and (max-width:550px) {
+  .webpage .container1 h1,
+  .webpage .container2 .title h1{
+      font-size: 25px;
+  }
+  .webpage .container1 span{
+      font-size: 12px;
+  }
+  .webpage .container2 .title h2,
+  .webpage .container3 .title h2,
+  .webpage .container4 .title h2{
+      font-size: 15px;
+  }
+  .ribtitle img, .ribbon1 img{
+      width: 50px;
+      height: 50px;
+  } 
+  .webpage .container2 .member1 img,
+  .webpage .container2 .member2 img,
+  .webpage .container3 .member1 img,
+  .webpage .container3 .member2 img,
+  .webpage .container4 .member1 img,
+  .webpage .container4 .member2 img{
+      width: 60px;
+      height: 60px;
+  }
+  .webpage .container2 .member1,
+  .webpage .container2 .member2, 
+  .webpage .container3 .member1,
+  .webpage .container3 .member2,
+  .webpage .container4 .member1, 
+  .webpage .container4 .member2 {
+      column-gap: 3%;
+      gap: 10px;
+      margin: 10px;
+  }
+  .webpage .container2 h3,
+  .webpage .container3 h3,
+  .webpage .container4 h3{
+      font-size: 11px;
+  }
+  .webpage .container2 p,
+  .webpage .container3 p,
+  .webpage .container4 p{
+      font-size: 10px;
+  }
+}
+
+
+@media screen and (min-width:550px) and (max-width:900px) {
+  .webpage .container1 h1,
+  .webpage .container2 .title h1{
+      font-size: 30px;
+  }
+  .webpage .container1 span{
+      font-size: 14px;
+  }
+  .webpage .container2 .title h2,
+  .webpage .container3 .title h2,
+  .webpage .container4 .title h2{
+      font-size: 16px;
+  }
+  .ribtitle img, .ribbon1 img{
+      width: 90px;
+      height: 90px;
+  } 
+  .webpage .container2 .member1 img,
+  .webpage .container2 .member2 img,
+  .webpage .container3 .member1 img,
+  .webpage .container3 .member2 img,
+  .webpage .container4 .member1 img,
+  .webpage .container4 .member2 img{
+      width: 90px;
+      height: 90px;
+  }
+  .webpage .container2 .member1,
+  .webpage .container2 .member2, 
+  .webpage .container3 .member1,
+  .webpage .container3 .member2,
+  .webpage .container4 .member1, 
+  .webpage .container4 .member2 {
+      column-gap: 10%;
+      gap: 70px;
+      margin: 12px;
+  }
+  .webpage .container2 h3,
+  .webpage .container3 h3,
+  .webpage .container4 h3{
+      font-size: 13px;
+  }
+  .webpage .container2 p,
+  .webpage .container3 p,
+  .webpage .container4 p{
+      font-size: 12px;
+  }
+}
